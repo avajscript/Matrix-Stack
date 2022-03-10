@@ -34,7 +34,7 @@ export default [
   },
   {
     mainCatagory: 'Political Corruption',
-    image: require('../images/politics.jpg'),
+    image: require('../images/politics.png'),
     subCatagories: ['Stock market fixing', 'Cult behaviour', 'New world order'],
   },
   {

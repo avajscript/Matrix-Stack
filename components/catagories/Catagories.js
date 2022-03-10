@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import Data from '../Data/catData';
 
 import Catagory from './Catagory';
 
@@ -17,10 +16,9 @@ const CatagoriesCont = styled.div`
     gap: 2%;
   }
 `;
+
 export default function Catagories(props) {
-  console.log('xxx');
-  console.log(COLORS);
-  const catagoryElems = Data.map((catagory) => {
+  const catagoryElems = props.data.map((catagory) => {
     return (
       <Catagory
         url={catagory.image}

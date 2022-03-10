@@ -1,13 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
-import Catagories from '../components/catagories/Catagory';
+import Catagories from '../components/catagories/Catagories';
 import COLORS from '../Data/colors';
+import Data from '../Data/catData';
 const CatagoryCont = styled.div``;
 
 const CatagoryPage = () => {
   return (
     <CatagoryCont>
-      <Catagories colors={COLORS} />
+      <Catagories data={Data} colors={COLORS} />
     </CatagoryCont>
   );
 };
