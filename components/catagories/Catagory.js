@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import Image from 'next/image';
 const CatagoryCont = styled.div`
   position: relative;
   width: 100%;

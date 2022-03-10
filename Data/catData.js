@@ -1,12 +1,12 @@
 export default [
   {
     mainCatagory: '911',
-    image: url('../public/images/911.jpg'),
+    image: '../public/images/911.jpg',
     subCatagories: ['Inside job', 'Osamas home life', 'Bush did it'],
   },
   {
     mainCatagory: 'Chemtrails',
-    image: url('../public/images/chemtrails.jpg'),
+    image: '../public/images/chemtrails.jpg',
     subCatagories: [
       'Fact or fiction?',
       'How to spot them',
@@ -15,7 +15,7 @@ export default [
   },
   {
     mainCatagory: 'Food',
-    image: url('../public/images/food.jpg'),
+    image: '../public/images/food.jpg',
     subCatagories: [
       'All about glyphosate',
       'What are GMOs??',
@@ -24,7 +24,7 @@ export default [
   },
   {
     mainCatagory: 'Vaccines',
-    image: url('../public/images/vaccine.jpg'),
+    image: '../public/images/vaccine.jpg',
     subCatagories: [
       'Vaccine ingredients',
       'Who makes the money',
@@ -34,12 +34,12 @@ export default [
   },
   {
     mainCatagory: 'Political Corruption',
-    image: url('../public/images/politics.png'),
+    image: '../public/images/politics.png',
     subCatagories: ['Stock market fixing', 'Cult behaviour', 'New world order'],
   },
   {
     mainCatagory: 'Flat Earth',
-    image: url('../public/images/flatearth.jpg'),
+    image: '../public/images/flatearth.jpg',
     subCatagories: ['Proof?', 'lol', 'more proof?'],
   },
 ];
