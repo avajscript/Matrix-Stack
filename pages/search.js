@@ -7,10 +7,23 @@ const Cont = styled.div`
   color:white;
 }
 `;
+const DivCont = styled.div`
+  background-color: red;
+  cursor: pointer;
+`;
 const SearchPage = () => {
   return (
     <Cont>
-      <img src="/911.jpg" layout="fixed" width={200} height={200} alt="911" />
+      <DivCont>
+        <Image
+          alt="Mountains"
+          src="/911.jpg"
+          layout="fixed"
+          objectFit="cover"
+          width={500}
+          height={500}
+        />
+      </DivCont>
     </Cont>
   );
 };
