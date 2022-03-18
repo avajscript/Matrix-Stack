@@ -30,6 +30,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/catagories.js"
     ],
+    "/catagories/[slug]": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/catagories/[slug].js"
+    ],
     "/search": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
